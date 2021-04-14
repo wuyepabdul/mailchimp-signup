@@ -4,13 +4,85 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/index.css" />
     <title>MailChimp Signup</title>
   </head>
   <body>
-    <main>
-      <header></header>
-      <section></section>
-      <footer></footer>
-    </main>
+    <section class="container">
+      <main>
+        <header>
+          <div class="center">
+            <h1 class="space-top">Welcome to Mailchimp</h1>
+            <p>
+              Find your people. Engage your customers. Build your brand. Do it
+              all with Mailchimp’s Marketing Platform. Already have an account?
+              <a href="#">Log in</a>
+            </p>
+          </div>
+        </header>
+        <section>
+          <form action="#">
+            <div class="center">
+              <div class="space-bottom"><label for="email">Email</label></div>
+              <input type="email" class="form-control" />
+            </div>
+            <div class="center">
+              <div class="space-bottom">
+                <label for="username">Username</label>
+              </div>
+              <input type="text" class="form-control" />
+            </div>
+            <div class="center">
+              <div class="space-bottom password-display">
+                <label for="password">Password</label>
+                <label for="password">Show</label>
+              </div>
+              <input type="password" class="form-control" />
+            </div>
+            <div class="center">
+              <div class="space-bottom flex-display">
+                <div>
+                  <li>One lowercase character</li>
+                  <li>One uppercase character</li>
+                  <li>One number</li>
+                </div>
+                <div>
+                  <li>One special character</li>
+                  <li>8 characters minimum</li>
+                </div>
+              </div>
+            </div>
+
+            <div class="center">
+              <div class="flex-display">
+                <input class="signup" type="button" value="signup" />
+
+                <input class="checkbox" type="checkbox" />
+
+                I don't want to receive emails about new Mailchimp products,
+                best practices or special offers.
+              </div>
+            </div>
+
+            <div class="center">
+              <div class="space-bottom">
+                <p>
+                  By clicking the "Sign Up" button, you are creating a Mailchimp
+                  account, and you agree to Mailchimp's
+                  <a href="#">Terms of Use</a> and
+                  <a href="#">Privacy Policy</a>.
+                </p>
+              </div>
+            </div>
+          </form>
+        </section>
+        <footer>
+          <p class="center">
+            ©2001–2021 All Rights Reserved. Mailchimp® is a registered trademark
+            of The Rocket Science Group. Cookie Preferences, Privacy, and Terms.
+          </p>
+        </footer>
+      </main>
+    </section>
   </body>
 </html>
